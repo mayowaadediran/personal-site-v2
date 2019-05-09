@@ -1,12 +1,19 @@
 import React, { Component } from 'react';
 import { Route, Switch} from 'react-router-dom';
 import Nav from './Component/Nav';
-import About from './Component/About';
-import Home from './Component/Home';
-import Portfolio from './Component/Portfolio';
-import Blog from './Component/Blog';
+import About from './Pages/About';
+import Home from './Pages/Home';
+import Portfolio from './Pages/Portfolio';
+import Blog from './Pages/Blog';
 import Footer from './Component/Footer';
 import './App.css';
+import { library } from '@fortawesome/fontawesome-svg-core'
+import { fas  } from '@fortawesome/free-solid-svg-icons';
+import { fab } from '@fortawesome/free-brands-svg-icons';
+
+
+library.add(fab, fas)
+
 
 class App extends Component {
   render() {
