@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { NavLink } from 'react-router-dom';
 import '../styles/main.css';
 
 
@@ -14,18 +13,18 @@ import '../styles/main.css';
           </p>
         </div>
       <div className="footer-social-links">
-          <NavLink className="social-link">
-            <FontAwesomeIcon icon={["fab", "twitter"]}/>
-          </NavLink>
-          <NavLink className="social-link">
-            <FontAwesomeIcon icon={["fab", "linkedin-in"]} />
-          </NavLink>
-          <NavLink className="social-link">
+          <a href="https://github.com/mayowaadediran" target="_blank" rel='noreferrer noopener' className="social-link">
             <FontAwesomeIcon icon={["fab", "github"]}/>
-          </NavLink>
-          <NavLink className="social-link">
+          </a>
+          <a href="https://twitter.com/ace_mayor" target="_blank" rel='noreferrer noopener' className="social-link">
+            <FontAwesomeIcon icon={["fab", "twitter"]}/>
+          </a>
+          <a href="https://www.linkedin.com/in/mayowa-adediran/" target="_blank"rel='noreferrer noopener' className="social-link">
+            <FontAwesomeIcon icon={["fab", "linkedin-in"]} />
+          </a>
+          <a href="https://medium.com/@ace_mayor" target="_blank" rel='noreferrer noopener' className="social-link">
             <FontAwesomeIcon icon={["fab", "medium"]}/>
-          </NavLink>
+          </a>
       </div>
       </div>
     )
