@@ -12,19 +12,19 @@ class Nav extends Component {
         </div>
 
         <div className="Nav-area">
-          <NavLink to="/"className="Nav-link">
+          <NavLink exact to="/" className="Nav-link" activeClassName="Nav-link-active">
             hi
           </NavLink>
 
-           <NavLink to= "/about" className="Nav-link">
+           <NavLink to= "/about" className="Nav-link" activeClassName="Nav-link-active">
             about
           </NavLink>
 
-          <NavLink to="/portfolio" className="Nav-link">
+          <NavLink to="/portfolio" className="Nav-link" activeClassName="Nav-link-active">
             portfolio
           </NavLink>
 
-          <NavLink to="/blog" className="Nav-link">
+          <NavLink to="/blog" className="Nav-link" activeClassName="Nav-link-active">
             blog
           </NavLink>
 
