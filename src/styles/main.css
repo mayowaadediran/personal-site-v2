@@ -21,6 +21,12 @@ body {
   color: #0055FF;
   font-weight: 900;
 }
+.content-head p {
+  font-family: 'Quicksand', sans-serif;
+  color: white;
+  font-weight: 900;
+  margin-bottom: 50px;
+}
 
 /* ===================
 =====  NAV STYLES ====
@@ -164,6 +170,98 @@ body {
 .skill-icon {
   color: white;
   font-size: 3.5em;
+}
+
+
+/* ===================
+===== FOOTER STYLES ==
+======================
+*/
+
+.portfolio {
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.work-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 6%;
+}
+
+.work-image {
+  width: 40%;
+  height: 350px;
+  position: relative;
+  box-shadow: 3px 3px 20px #000;
+}
+
+.work-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.work-image__overlay {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  background: rgba(60, 58, 202, 0.2);
+  transition: opacity 0.4s ease-in;
+}
+
+.work-description {
+  width: 55%;
+}
+
+.work-description h1 {
+  font-family: 'Inconsolata', monospace;
+  color: #0055FF;
+  font-weight: 900;
+}
+
+.work-description-text p {
+  color: #ccc;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 1.1em;
+  font-weight: 500;
+  line-height: 30px;
+  letter-spacing: 1px;
+}
+
+.work-techstack {
+  /* display: flex; */
+}
+
+.work-techstack ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.work-techstack p {
+  font-weight: 900;
+  font-family: 'Quicksand', sans-serif;
+  color: #ccc;
+}
+.work-techstack li {
+  color: #ccc;
+  font-family: 'Quicksand' sans-serif;
+  font-size: 0.6em;
+  border: 1px solid #0055FF;
+  border-radius: 5px;
+  padding: 8px;
+  margin-right: 15px;
+  text-transform: uppercase;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 /* ===================
