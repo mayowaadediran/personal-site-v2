@@ -37,7 +37,8 @@ body {
   display: flex;
   margin: 0 auto;
   justify-content: space-between;
-  padding-top: 50px;
+  align-items: center;
+  height: 80px;
 }
 
 .Nav-area {
@@ -49,9 +50,16 @@ body {
 .Nav-link {
   text-decoration: none;
   color: #fff;
-  font-size: 1.2em;
-  font-weight: 700;
+  font-size: 1em;
+  font-weight: 100;
   font-family: 'Quicksand', sans-serif;
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+}
+
+.Nav-link:hover,
+.Nav-link-active {
+  box-shadow: inset 0 -22px 0 #0055FF;
 }
 
 
@@ -235,9 +243,6 @@ body {
   letter-spacing: 1px;
 }
 
-.work-techstack {
-  /* display: flex; */
-}
 
 .work-techstack ul {
   list-style: none;
