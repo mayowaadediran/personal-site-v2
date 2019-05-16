@@ -1,4 +1,5 @@
 import React from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import './../styles/main.css';
 
 function Works (props) {
@@ -10,11 +11,12 @@ function Works (props) {
         </div>
       </div>
       <div className="work-description">
-        <div>
+        <div className="work-description-head">
           <h1>
           {props.title}
           </h1>
-          {props.projectLink ? <a target="_blank" href={props.link} rel="noopener noreferrer"><i></i></a> : null} 
+          {props.projectLink ? <a className="work-description-icon" target="_blank" href={props.link} rel="noopener noreferrer"><FontAwesomeIcon icon={["fas", "external-link-alt"]}/></a> : null} 
+          {props.githubLink ? <a className="work-description-icon" target="_blank" href={props.github} rel="noopener noreferrer"> <FontAwesomeIcon icon={["fab", "github"]}/></a> : null}
         </div>
         <div className="work-description-text">
           <p>
