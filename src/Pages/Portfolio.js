@@ -9,13 +9,11 @@ import './../styles/main.css'
   render() {
     return (
       <div className="portfolio container">
-        <div>
-          <div className="content-head">
-            <h2>
-              Some of the project i've done
-            </h2>
-            <p>To see  more projects i'm working/worked on, check out my github</p>
-          </div>
+        <div className="content-head">
+          <h2>
+            Selected Projects
+          </h2>
+          <p>Showcase of some side projects and experiments. To see  more projects i'm working/worked on, check out my github</p>
         </div>
         <div className="works">
           <Works 
@@ -24,6 +22,9 @@ import './../styles/main.css'
             workImage = {reactWeatherApp}
             techStackReact = {true}
             techStackOthers = {true}
+            githubLink = {true}
+            projectLink = {true}
+            link = "https://react-weather-app-ng.netlify.com"
           />
           <Works 
             title = "Memory Game"
