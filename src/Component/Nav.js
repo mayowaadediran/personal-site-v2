@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { NavLink } from 'react-router-dom';
 import logo from './../assets/img/myLogo.svg';
-
+import resume from './../assets/files/Mayowa_Adediran_CV.pdf'
 
 class Nav extends Component {
   render() {
@@ -24,13 +24,13 @@ class Nav extends Component {
             portfolio
           </NavLink>
 
-          <NavLink to="/blog" className="Nav-link" activeClassName="Nav-link-active">
-            blog
-          </NavLink>
+          <a href="https://medium.com/@ace_mayor" target="_blank" rel="noopener noreferrer" className="Nav-link" activeClassName="Nav-link-active">
+            writings
+          </a>
 
-          <NavLink to="/resume" className="Nav-link">
+          <a className="Nav-link" href={resume} download>
             resume
-          </NavLink>
+          </a>
         </div>
       </div>
     )
