@@ -10,9 +10,12 @@ function Works (props) {
         </div>
       </div>
       <div className="work-description">
-        <h1>
+        <div>
+          <h1>
           {props.title}
-        </h1>
+          </h1>
+          {props.projectLink ? <a target="_blank" href={props.link} rel="noopener noreferrer"><i></i></a> : null} 
+        </div>
         <div className="work-description-text">
           <p>
             {props.description}
@@ -27,6 +30,7 @@ function Works (props) {
             {props.techStackReact ? <li>React</li> : null}
             {props.techStackHTML ? <li>HTML</li> : null}
             {props.techStackCSS ? <li>CSS</li> : null}
+            {props.techStackNodeJS ? <li>NODEJS</li> : null}
           </ul>
         </div>
       </div>

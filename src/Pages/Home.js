@@ -12,9 +12,7 @@ class Home extends Component {
             </h1>
             <h2>
               A <span className="strong-span">Frontend Web Developer</span> from Lagos, Nigeria. I love creating things that work on
-              the internet with a user-centric
-              and simplistic approach.
-            When I'm not coding, i'm writing tech stuff on my blog and rambling about life on my medium
+              the internet with a user-centric and simplistic approach. When I'm not coding, I'm not coding.
             </h2>
             <p>
               Get in touch

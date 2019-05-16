@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import './../styles/main.css';
 
 class About extends Component {
@@ -7,7 +6,6 @@ class About extends Component {
     return (
       <div className="about container">
          <div className="about-content">
-
             <div className="about-profile">
               <div className="content-head">
                 <h2>
@@ -41,27 +39,29 @@ class About extends Component {
                   Programming languages/frameworks
                 </h4>
                 <div className="skill-icon-container">
-                  <FontAwesomeIcon
-                    icon={['fab', 'js']}
-                    className="skill-icon"
-                  />
-                  <FontAwesomeIcon
-                    icon={['fab', 'html5']}
-            
-                    className = "skill-icon"
-                  />  
-                  <FontAwesomeIcon
-                    icon={['fab', 'css3-alt']}
-                    className = "skill-icon"
-                  />
-                  <FontAwesomeIcon
-                    icon={['fab', 'react']}
-                    className = "skill-icon"
-                  />
-                  <FontAwesomeIcon
-                    icon={['fab', 'node']}
-                    className = "skill-icon"
-                  />                 
+                  <ul>
+                    <li>
+                      HTML
+                    </li>
+                    <li>
+                      CSS
+                    </li>
+                    <li>
+                      ES6 JAVASCRIPT
+                    </li>
+                    <li>
+                      REACT
+                    </li>
+                    <li>
+                      SASS
+                    </li>
+                    <li>
+                      NODEJS
+                    </li>
+                    <li>
+                      EXPRESSJS
+                    </li>
+                  </ul>             
                 </div>
               </div>
               <div className="about-skills-descr">
@@ -69,20 +69,20 @@ class About extends Component {
                   Tools
                 </h4>
                 <div className="skill-icon-container">
-                  <FontAwesomeIcon
-                    icon={['fab', 'github']}
-                    className="skill-icon"
-                  />
-                  <FontAwesomeIcon
-                    icon={['fab', 'gulp']}
-            
-                    className = "skill-icon"
-                  />  
-                  <FontAwesomeIcon
-                    icon={['fab', 'sketch']}
-                    className = "skill-icon"
-                  />
-
+                  <ul>
+                    <li>
+                      GIT
+                    </li>
+                    <li>
+                      GULP
+                    </li>
+                    <li>
+                      GITHUB
+                    </li>
+                    <li>
+                      FIGMA
+                    </li>
+                  </ul>
                 </div>
               </div>
             </div>

@@ -1,4 +1,8 @@
 import React, { Component } from 'react';
+import Works from './../Component/Works';
+import memoryGame from './../assets/img/memory-game.png';
+import reactWeatherApp from './../assets/img/react-weather-app.png';
+import nesaByMakers from './../assets/img/nesa-image.png';
 import './../styles/main.css'
 
  class Portfolio extends Component {
@@ -10,18 +14,34 @@ import './../styles/main.css'
             <h2>
               Some of the project i've done
             </h2>
-            <p>To see  more projects i'm working on, check out my github</p>
+            <p>To see  more projects i'm working/worked on, check out my github</p>
           </div>
         </div>
-        <div className="porfolio-card-container">
-          <div>
-            <div>
-
-            </div>
-            <div>
-              
-            </div>
-          </div>
+        <div className="works">
+          <Works 
+            title = "React Weather App"
+            description = "A weather app display weather conditions and forecast for locations around the world. This app was created to practice developing app with react that require making api calls to external data. Weather data are retrieved from the OpenWeather Api"
+            workImage = {reactWeatherApp}
+            techStackReact = {true}
+            techStackOthers = {true}
+          />
+          <Works 
+            title = "Memory Game"
+            description = "A memory game done as part of my Udacity Nanodegree. Testing my skills with JavaScript DOM manipulation and CSS animations"
+            workImage = {memoryGame}
+            techStackHTML = {true}
+            techStackCSS = {true}
+            techStackJS = {true}
+          />
+          <Works 
+            title = "NesaByMakers Bootcamp"
+            description= "A collection of projects, practices and assignments done during my 6 month full stack developer bootcamp"
+            workImage = {nesaByMakers}
+            techStackHTML = {true}
+            techStackCSS = {true}
+            techStackJS = {true}
+            techStackReact = {true}
+          />
         </div>
       </div>
     )
