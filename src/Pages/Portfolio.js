@@ -25,6 +25,7 @@ import './../styles/main.css'
             githubLink = {true}
             projectLink = {true}
             link = "https://react-weather-app-ng.netlify.com"
+            github = "https://github.com/mayowaadediran/react-weather-app"
           />
           <Works 
             title = "Memory Game"
@@ -33,6 +34,10 @@ import './../styles/main.css'
             techStackHTML = {true}
             techStackCSS = {true}
             techStackJS = {true}
+            githubLink = {true}
+            projectLink = {true}
+            link = "https://mayowaadediran.github.io/udacity-fend-memory-game/"
+            github = "https://github.com/mayowaadediran/udacity-fend-memory-game"
           />
           <Works 
             title = "NesaByMakers Bootcamp"
@@ -42,6 +47,10 @@ import './../styles/main.css'
             techStackCSS = {true}
             techStackJS = {true}
             techStackReact = {true}
+            githubLink = {true}
+            projectLink = {true}
+            link = "https://mayowaadediran.github.io/nesabymakers-bootcamp/"
+            github = "https://github.com/mayowaadediran/nesabymakers-bootcamp"
           />
         </div>
       </div>
