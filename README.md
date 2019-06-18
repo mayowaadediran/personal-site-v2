@@ -1,3 +1,4 @@
 # Mayowa Adediran's Personal Site
 
-The second version of my personal porfolio built with react
+The second version of my personal porfolio built with using JAMstack
+
