@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Works from './../Component/Works';
+import Works from './../Component/Works/Works';
 import memoryGame from './../assets/img/memory-game.png';
 import reactWeatherApp from './../assets/img/react-weather-app.png';
 import nesaByMakers from './../assets/img/nesa-image.png';

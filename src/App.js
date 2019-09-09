@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
 import { Route, Switch} from 'react-router-dom';
 import { Helmet } from 'react-helmet';
-import Nav from './Component/Nav';
+import Nav from './Component/Nav/Nav';
 import About from './Pages/About';
 import Home from './Pages/Home';
 import Portfolio from './Pages/Portfolio';
-import Footer from './Component/Footer';
+import Footer from './Component/Footer/Footer';
 import './App.css';
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { fas  } from '@fortawesome/free-solid-svg-icons';
