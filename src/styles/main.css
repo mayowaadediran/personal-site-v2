@@ -3,6 +3,12 @@
 ======================
 */
 
+.App {
+  background-color: #192432;
+  min-height: 100vh;
+}
+
+
 * {
   box-sizing: border-box;
 }

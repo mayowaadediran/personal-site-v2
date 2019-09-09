@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css?family=Inconsolata:400,700|Poppins:400,600,900&display=swap');
+
+
+/* ==================
+==== Fonts ==========
+**/
+$font-primary: 'Inconsolata', monospace;
+$font-secondary: 'Poppins', sans-serif;
+$font: -apple-system, system-ui, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+
+/* ===================
+== Color Variables ===
+**/
+
+$black: #000000;
+$blue: #0055FF;
+
+$dark-text: #fff;
+$light-text: rgb(33, 33,48);
+
+$dark-bg: rgb(38, 41, 43);
+$light-bg: #fff; 
+
+/* ====================
+====== Break Points === 
+====================**/
+
+$break-point-xs: 350px;
+$break-point-s: 576px;
+$break-point-md: 782px;
+$break-point-l: 992px;
+$break-point-xl: 1024px;
+$break-point-xxl: 1200px;
+
+/* ====================
+====== Extends ========
+==================== **/
+
+%container {
+  width: 90%;
+  margin: 0 auto;
+
+  @media screen and (min-width: $break-point-s) {
+    width: 85%
+  }
+
+  // @media screen and (min-width: $break-point-md) {
+  //   width: 80%
+  // }
+
+  // @media screen and (min-width: $break-point-l) {
+  //   width: 75%
+  // }
+
+  @media screen and (min-width: $break-point-xxl) {
+    width: 80%
+  }
+}
+

@@ -13,6 +13,10 @@ class Home extends Component {
             A <span className="strong-span">Frontend Web Developer</span> from Lagos, Nigeria. I love creating things that work on
             the internet with a user-centric and simplistic approach. When I'm not coding, I'm not coding.
           </h2>
+            <p>
+
+            This site was built using react, contentful and sass.
+            </p>
           <p>
             Get in touch
             <span>

@@ -3,6 +3,7 @@ import { NavLink , Link } from 'react-router-dom';
 import logo from './../assets/img/myLogo.svg';
 import resume from './../assets/files/Mayowa_Adediran_CV.pdf'
 
+
 class Nav extends Component {
   render() {
     return (
@@ -10,7 +11,7 @@ class Nav extends Component {
         <Link exact to="/" className="logo">
           <img src={logo} alt="Logo" />
         </Link>
-
+        
         <div className="Nav-area">
           <NavLink exact to="/" className="Nav-link" activeClassName="Nav-link-active">
             hi
