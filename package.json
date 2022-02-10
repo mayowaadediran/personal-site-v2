@@ -9,7 +9,7 @@
     "@fortawesome/react-fontawesome": "^0.1.4",
     "contentful": "^7.6.0",
     "i": "^0.3.6",
-    "node-sass": "^4.12.0",
+    "node-sass": "^7.0.0",
     "npm": "^6.9.0",
     "react": "^16.8.4",
     "react-dom": "^16.8.4",
